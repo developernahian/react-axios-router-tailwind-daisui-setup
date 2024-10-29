@@ -61,7 +61,7 @@ NOTE: dist folder create er jonne⬇️
 ************* DONE **************
 
   (npm init -y ->kono ak error er jonne eta npm run build er age diyechilam, error na asle ei command er dorkar nai)
-
+-------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -84,3 +84,14 @@ NOTE:
                                      npm run build
   then surge update korar jonno⬇️⬇️ 
                             surge dist
+
+*************** DONE **************
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+more about surge⬇️⬇️
+
+surge er all comman er list dekhar jonno ➡️➡️ surge -h
+surge e kon kon domain create korechi dekhar jonno ➡️➡️ surge list
+surge e kon mail login kora seta check korar jonno ➡️➡️ surge whoami
+delete any domain then ➡️➡️ surge teardown ➡️➡️ write the domain and enter
