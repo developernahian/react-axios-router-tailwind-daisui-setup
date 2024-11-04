@@ -1,0 +1,97 @@
+➡️ Create New React App using vite
+➡️ Add HTTP Client Package Axios
+➡️ Add React Router Dom
+➡️ Configure Tailwind CSS
+➡️ Configure DaisyUI
+
+
+
+
+Step(1) ➡️ Create New React App using vite ⬇️ ****************** Start ************************
+	Visit Vite website https://vite.dev/guide/ then pick the NPM Command (command given below)
+			⬇️
+::::	npm create vite@latest project-folder-name -- --template react
+			⬇️
+        cd project-folder-name
+            ⬇️
+::::        npm install ///// npm i
+            ⬇️
+::::        npm run dev
+
+
+
+
+
+
+
+Step(2) ➡️ Add HTTP Client Package Axios ⬇️ ****************** Start ************************
+visit Asios website or npm website and search Axios⬇️
+https://axios-http.com/docs/intro  (OR) https://www.npmjs.com/package/axios
+                        ⬇️
+::::                   npm install axios  //// npm i axios
+
+
+
+
+
+
+Step(3) ➡️ Add React Router Dom ⬇️ ****************** Start ************************
+Visit React Router website or npm website and search react router Dom
+https://reactrouter.com/en/main/start/tutorial  (OR)  https://www.npmjs.com/package/react-router-dom
+                        ⬇️
+::::                npm install react-router-dom  ///// npm i react-router-dom
+                        ⬇️
+::::                npm install localforage match-sorter sort-by    //// ei command ta na dileo hoy
+
+NOTE:  (((npm install react-router-dom localforage match-sorter sort-by))) 2 ta command akSathei ei command er maddhome dewa jai........
+
+
+
+Step(4) ➡️ Configure Tailwind CSS ⬇️ ****************** Start ************************
+tailwind website -> get started -> Framework Guides -> select Vite
+https://tailwindcss.com/docs/guides/vite
+                        ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
+                        ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
+::::                npm install -D tailwindcss postcss autoprefixer
+::::                npx tailwindcss init -p
+
+
+                        ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
+                        ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
+tailwind.config.js file er ➡️ content: [], replace by ⬇️
+                
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+
+
+                        ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
+                        ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
+src folder er moddhe index.css er all code delete kore nicher 3 ta code paste krote hobe ⬇️⬇️⬇️
+                        
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+                        ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
+                        ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
+src folder er moddhe App.css er code gulo delete korte hobe. karon ei code er dorkar nai.
+
+
+
+
+
+
+
+Step(4) ➡️ Configure DaisyUI ⬇️ ****************** Start ************************
+Visit DaisyUI website -> HowToUseButton or Menu->installTab->NPM
+                        ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
+::::                    npm i -D daisyui@latest
+                        ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
+tailwind.config.js file er moddhe plugins: [], replace by ⬇️
+
+  plugins: [
+    require('daisyui'),
+  ],
